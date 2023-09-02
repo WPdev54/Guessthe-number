@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #f0b262;
+
+}
+
+body {
+    background-color: rgb(37, 40, 43);
+}
+
+.heading h1 {
+    color: chartreuse;
+    margin-bottom: 5rem;
+}
+
+span.First-part {
+    color: coral;
+}
+
+h2 span#random_number {
+    color: #FFFFFF;
+    margin-top: 25px;
+    border: 5px solid #c09029;
+    display: inline-block;
+    font-size: 25px;
+    padding: 5rem 14rem;
+    border-radius: 18px;
+    position: relative;
+}
+
+h2 span#random_number::before {
+    content: "⚠️";
+    position: absolute;
+    width: 20px;
+    font-size: 75px;
+    top: 38px;
+    left: 189px;
+    margin-bottom: 26px;
+    height: 20px;
+   
+    z-index: 1;
+}
+
+
+
+#message h4 small {
+    color: burlywood;
+    font-size: 15px;
+    margin-top: 55px;
+}
+
+#messageas {}
+
+input#guessed-Num {
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 900;
+    background-color: #f0b262;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: lightgreen;
+    border-radius: 10px;
+    color: #f0b262;
+    font-weight: 900;
+    border: 0;
+    padding: 12px 28px;
+    transition: .4s all ease-in-out;
+}
+
+button:hover {
+    background-color: #c09029;
+    color: #FFFFFF;
+}
+
+button:focus {
+    outline: none;
+    border: 0;
+}
